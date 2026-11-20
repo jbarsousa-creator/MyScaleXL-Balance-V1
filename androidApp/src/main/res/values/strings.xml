@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MyScale XL</string>
+    <string name="lang_native_pt" translatable="false">Português</string>
+    <string name="lang_native_fr" translatable="false">Français</string>
+    <string name="lang_native_en" translatable="false">English</string>
+
+    <!-- Navigation / common -->
+    <string name="nav_home">Home</string>
+    <string name="nav_meals">Meals</string>
+    <string name="nav_history">History</string>
+    <string name="nav_profiles">Profiles</string>
+    <string name="nav_connect">Connect</string>
+    <string name="header_profile">Profile: %1$s</string>
+    <string name="settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+
+    <!-- Home -->
+    <string name="home_last_weight">Last weight</string>
+    <string name="home_diff_prev">%1$+.1f kg since previous weigh-in</string>
+    <string name="home_add_weight">Log weight manually</string>
+    <string name="home_no_profile">Create a profile in the Profiles tab to get started.</string>
+    <string name="home_no_weights">No weigh-ins yet. Connect the scale in the Connect tab or log your weight manually.</string>
+    <string name="add_weight_title">Log weight</string>
+    <string name="weight_kg_label">Weight (kg)</string>
+    <string name="bmi_label">BMI</string>
+    <string name="bmi_cat_under">Underweight</string>
+    <string name="bmi_cat_normal">Normal weight</string>
+    <string name="bmi_cat_over">Overweight</string>
+    <string name="bmi_cat_ob1">Obesity class I</string>
+    <string name="bmi_cat_ob2">Obesity class II</string>
+    <string name="bmi_cat_ob3">Obesity class III</string>
+    <string name="ideal_weight_range">Ideal weight: %1$.0f – %2$.0f kg</string>
+    <string name="tile_fat">Body fat</string>
+    <string name="tile_visceral">Visceral fat</string>
+    <string name="tile_muscle">Muscle</string>
+    <string name="tile_bone">Bone</string>
+    <string name="tile_water">Water</string>
+    <string name="tile_bmr">Basal metabolism</string>
+    <string name="tile_ideal">Ideal weight</string>
+    <string name="pct_of_weight">%1$s of body weight</string>
+    <string name="unit_kcal_day">kcal per day</string>
+    <string name="hint_hydrated">Well hydrated</string>
+    <string name="hint_below_ideal">Below ideal</string>
+    <string name="level_low">Low</string>
+    <string name="level_normal">Normal</string>
+    <string name="level_high">High</string>
+    <string name="level_very_high">Very high</string>
+    <string name="level_healthy">Healthy</string>
+    <string name="composition_title">Body composition</string>
+    <string name="legend_fat">Fat</string>
+    <string name="legend_muscle">Muscle</string>
+    <string name="legend_bone">Bone</string>
+    <string name="legend_other">Other</string>
+    <string name="legend_item">%1$s  %2$.1f kg</string>
+    <string name="composition_note">Values estimated from formulas using weight, height, age and sex.</string>
+    <string name="goal_title">Goal</string>
+    <string name="goal_complete">%1$s complete</string>
+    <string name="goal_start">Starting weight</string>
+    <string name="goal_target">Target</string>
+    <string name="goal_to_lose">Left to lose</string>
+    <string name="goal_to_gain">Left to gain</string>
+    <string name="evolution_title">Progress (last 14 weigh-ins)</string>
+    <string name="evolution_empty">Do more weigh-ins to see the chart</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_count">%1$d weigh-ins • %2$s</string>
+    <string name="export">Export</string>
+    <string name="export_chooser">Export history</string>
+    <string name="export_subject">MyScale XL - history</string>
+    <string name="range_7">7 days</string>
+    <string name="range_30">30 days</string>
+    <string name="range_all">All</string>
+    <string name="history_empty">No weigh-ins in this period</string>
+    <string name="stat_min">Minimum</string>
+    <string name="stat_avg">Average</string>
+    <string name="stat_max">Maximum</string>
+    <string name="stat_change">Change</string>
+    <string name="item_date_time">%1$s at %2$s</string>
+    <string name="item_bmi">BMI %1$s</string>
+    <string name="item_fat">Fat %1$s</string>
+    <string name="item_bmr">BMR %1$d</string>
+
+    <!-- Profiles -->
+    <string name="profiles_title">Profiles</string>
+    <string name="profiles_new">New</string>
+    <string name="profile_line">%1$s • %2$d cm • Target: %3$s</string>
+    <string name="new_profile">New profile</string>
+    <string name="name_label">Name</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="birth_year">Birth year</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="target_weight_opt">Target weight (kg) — optional</string>
+
+    <!-- Bluetooth -->
+    <string name="ble_title">Connect scale</string>
+    <string name="ble_connected">Connected</string>
+    <string name="ble_connecting">Connecting…</string>
+    <string name="ble_disconnected">Disconnected</string>
+    <string name="ble_last_weight">Last weight: %1$.2f kg</string>
+    <string name="ble_scan">Scan</string>
+    <string name="ble_stop">Stop</string>
+    <string name="ble_disconnect">Disconnect</string>
+    <string name="ble_devices">Devices found</string>
+    <string name="ble_logs">Logs</string>
+    <string name="ble_no_name">No name</string>
+
+    <!-- Health Connect rationale -->
+    <string name="perm_title">Health permissions</string>
+    <string name="perm_body">MyScale XL needs permission to write your weight and body fat percentage to Health Connect (Google Fit), so you can follow your progress in other health apps.</string>
+    <string name="perm_ok">Got it</string>
+
+    <!-- Meals / calories -->
+    <string name="meals_today">Today</string>
+    <string name="meals_yesterday">Yesterday</string>
+    <string name="meals_prev_day">Previous day</string>
+    <string name="meals_next_day">Next day</string>
+    <string name="meal_breakfast">Breakfast</string>
+    <string name="meal_lunch">Lunch</string>
+    <string name="meal_snack">Snack</string>
+    <string name="meal_dinner">Dinner</string>
+    <string name="cal_today">Calories today</string>
+    <string name="cal_eaten">Eaten</string>
+    <string name="cal_goal">Daily goal</string>
+    <string name="cal_left_fmt">%1$d kcal left</string>
+    <string name="cal_over_fmt">%1$d kcal over</string>
+    <string name="kcal_value">%1$d kcal</string>
+    <string name="meals_add_title">Add food</string>
+    <string name="btn_photo">Take photo</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_manual">Manual</string>
+    <string name="manual_title">Add food manually</string>
+    <string name="analyzing">Analyzing photo…</string>
+    <string name="review_title">Review food</string>
+    <string name="review_hint">Estimated by AI. Adjust the calories if needed.</string>
+    <string name="food_name">Food</string>
+    <string name="calories_label">kcal</string>
+    <string name="total_fmt">Total: %1$d kcal</string>
+    <string name="no_foods">Nothing logged yet</string>
+    <string name="week_title">Last 7 days</string>
+    <string name="edit_goal_title">Daily calorie goal</string>
+    <string name="goal_hint">Leave empty for automatic</string>
+    <string name="goal_auto_note">The automatic goal is estimated from your metabolism and weight target. It is not medical advice.</string>
+    <string name="err_no_key">Add your free Google Gemini API key in Settings to analyze photos.</string>
+    <string name="err_network">Could not analyze the photo: %1$s</string>
+    <string name="err_parse">Could not understand the result. Try again or add the food manually.</string>
+    <string name="err_no_food">No food was recognized in the photo.</string>
+    <string name="photo_disclaimer">Calorie estimates from photos are approximate, often off by 20–30%.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language_title">Language</string>
+    <string name="lang_system">System default</string>
+    <string name="api_key_title">Google Gemini API key (free)</string>
+    <string name="api_key_label">API key</string>
+    <string name="api_key_note">Free key from Google AI Studio (aistudio.google.com). Used only to analyze food photos. Stored only on this device. Free tier has daily limits but no credit card required.</string>
+    <string name="api_key_saved">Saved</string>
+    <string name="privacy_note">Photos are sent to Google Gemini only when you analyze a meal.</string>
+
+    <string name="legend_good">Within range</string>
+    <string name="legend_watch">Watch</string>
+    <string name="legend_high">High</string>
+    <string name="legend_alert">Alert</string>
+
+    <string name="edit">Edit</string>
+    <string name="edit_food_title">Edit food</string>
+    <string name="delete_confirm_title">Delete this food?</string>
+    <string name="delete_confirm_body">This will permanently remove %1$s from your history.</string>
+</resources>
